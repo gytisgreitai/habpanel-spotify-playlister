@@ -1,0 +1,21 @@
+{
+  "name": "habpanel-spotify-playlister",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spotify-playlister.js",
+  "scripts": {
+    "build": "babel spotify-playlister.js -d release",
+    "start": "concurrently \"babel --watch spotify-playlister.js -d dist\" \" live-server --port=8000 dist\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "live-server": "^1.2.1"
+  }
+}
