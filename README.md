@@ -1,5 +1,5 @@
 # Spotify Playlists for openHAB Habpanel
-
+![](https://github.com/gytisgreitai/habpanel-spotify-playlister/raw/master/media/playlister.png)
 
 - Shows your Spotify playlists (max 50)
 - Allows searching for albums, tracks, artists, playlists
